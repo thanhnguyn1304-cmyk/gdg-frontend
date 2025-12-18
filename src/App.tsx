@@ -106,7 +106,7 @@ function App() {
 
           <button 
             style={{...buttonStyle, backgroundColor: '#dc3545'}} 
-            onClick={() => {setUser(null); setData(null);}}
+            onClick={() => { signOut(auth); setUser(null); setData(null); }}
           >
             Đăng xuất
           </button>
