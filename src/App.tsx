@@ -102,7 +102,7 @@ function App() {
         style={{ x, rotate, opacity, backgroundColor: bg }}
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
-        onDragEnd={(e, info) => {
+        onDragEnd={(_, info) => {
           if (info.offset.x > 100) onSwipe('right');
           else if (info.offset.x < -100) onSwipe('left');
         }}
