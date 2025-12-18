@@ -134,8 +134,8 @@ function App() {
       
       <div className="z-10 text-center">
         <div className="w-24 h-24 mx-auto bg-gradient-to-tr from-pink-500 to-orange-400 rounded-3xl mb-8 shadow-2xl flex items-center justify-center text-4xl transform rotate-3">🔥</div>
-        <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">Activity <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400">Match</span></h1>
-        <p className="text-gray-400 mb-10 text-lg max-w-xs mx-auto">Đừng để cuối tuần nhàm chán. Quẹt để tìm niềm vui mới!</p>
+        <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">Hello Mèo Béo <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-400">Match</span></h1>
+        <p className="text-gray-400 mb-10 text-lg max-w-xs mx-auto">Em lại không biết làm gì ngoài lướt thread đúng khoonggg ? Để anh giúp em</p>
         
         <button onClick={() => signInWithPopup(auth, googleProvider)} className="w-full bg-white text-gray-900 px-8 py-4 rounded-xl font-bold shadow-lg hover:bg-gray-50 transition-all active:scale-95 flex items-center justify-center gap-3 text-lg">
           <img src="https://www.google.com/favicon.ico" className="w-6 h-6" />
